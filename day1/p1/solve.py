@@ -6,7 +6,7 @@
 # Date: 2021-12-01
 
 # Read input into a list of integers
-with open("input.txt") as f:
+with open("../input.txt") as f:
     numbers = [int(line.strip()) for line in f]
 
 
