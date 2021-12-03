@@ -13,8 +13,9 @@ index = 0
 count = 0
 clusters = []
 
+# Add trio of numbers to array
 for l in lines:
-    clusters.append(sum(lines[index:(index+3)]))
+    clusters.append(sum(lines[index:(index + 3)]))
     index += 1
 index = 0
 
