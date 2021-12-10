@@ -27,7 +27,7 @@ def copy2clip(txt):
     return sp.check_call(cmd, shell=True)
 
 
-# Remove lines based on input
+# Remove lines based on input 
 def removeLines(lines, countOf1, countOf0, line, pos, sel):
     if sel == 0:
         bitCritOne = '0'
